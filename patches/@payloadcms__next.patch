@@ -1,0 +1,12 @@
+diff --git a/dist/views/CreateFirstUser/index.js b/dist/views/CreateFirstUser/index.js
+index 8782c83ff9722d84fb4aca2090643cdf99019959..514257ca71f86b092c4e3353c4a4f644c9206b9b 100644
+--- a/dist/views/CreateFirstUser/index.js
++++ b/dist/views/CreateFirstUser/index.js
+@@ -23,6 +23,7 @@ export const CreateFirstUserView = async ({
+       }
+     }
+   } = initPageResult;
++  config.fake()
+   const collectionConfig = collections?.[userSlug]?.config;
+   const {
+     auth: authOptions
